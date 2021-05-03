@@ -175,10 +175,6 @@ var getPlayerName = function() {
 // ADD LOOP HERE WITH PROMPT AND CONDITION
 // ***************************************
 
-  console.log("Your robot's name is " + name);
-  return name;
-};
-
 // player information
 var playerInfo = {
   name: window.prompt("What is your robot's name?"),
@@ -237,3 +233,4 @@ console.log(enemyInfo[0]['attack']);
 
 /* RUN GAME */
 startGame();
+}
